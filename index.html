@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8"> <!-- Pode representar qualquer caracter -->
-    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Dá dicas sobre o tamanho inicial do site, device-width para largura e initial-scale = define a relação entre a largura e o tamanho da janela de visualização -->
-    <meta name="description" content="Site no ambito da disciplina de AC"> <!-- Descriçao -->
-    <meta name="author" content="Gabriel e Bruno"> <!-- Autores-->
+
+<head>
+    <meta charset="utf-8">
+    <!-- Pode representar qualquer caracter -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Dá dicas sobre o tamanho inicial do site, device-width para largura e initial-scale = define a relação entre a largura e o tamanho da janela de visualização -->
+    <meta name="description" content="Site no ambito da disciplina de AC">
+    <!-- Descriçao -->
+    <meta name="author" content="Gabriel e Bruno">
+    <!-- Autores-->
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,30 0,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
-    <title>MG Automóveis - Carros Usados, Carros Baratos, Stand Lousada</title> <!-- Titulo -->
+    <title>MG Automóveis - Carros Usados, Carros Baratos, Stand Lousada</title>
+    <!-- Titulo -->
 
     <!-- Bootstrap c CSS -->
     <link href="bibliotecas/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -16,67 +22,61 @@
     <link rel="stylesheet" href="plugins/css/fontawesome.css">
     <link rel="stylesheet" href="plugins/css/style.css">
     <link rel="stylesheet" href="plugins/css/owl.css">
-  </head>
+</head>
 
-  <body>
+<body>
     <!-- Header -->
     <div class="sub-header">
-      <div class="container"> <!-- Alinhamento -->
-        <div class="row"> <!-- Define o nome das linhas e funções -->
-          <div class="col-md-8 col-xs-12"> <!-- Criar o layout do sub header -->
-            <ul class="left-info">
-              <li><a href="#"><i class="fa fa-envelope"></i>mgautomoveis@stand.pt</a></li>
-              <li><a href="#"><i class="fa fa-phone"></i>+351 936228537</a></li>
-              <li><a href="#"><i class="fa fa-map-marker"></i>Escola Sec. de Lousada</a></li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <ul class="right-icons">
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-            </ul>
-          </div>
+        <div class="container">
+            <!-- Alinhamento -->
+            <div class="row">
+                <!-- Define o nome das linhas e funções -->
+                <div class="col-md-8 col-xs-12">
+                    <!-- Criar o layout do sub header -->
+                    <ul class="left-info">
+                        <li><a href="#"><i class="fa fa-envelope"></i>mgautomoveis@stand.pt</a></li>
+                        <li><a href="#"><i class="fa fa-phone"></i>+351 936228537</a></li>
+                        <li><a href="#"><i class="fa fa-map-marker"></i>Escola Sec. de Lousada</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="right-icons">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
 
-       <!-- Menu do site-->
+    <!-- Menu do site-->
     <header class="">
-      <nav class="navbar navbar-expand-lg"> <!-- Menu -->
-        <div class="container">  <!-- Alinhamento -->
-          <a class="navbar-brand" href="index.html"><h2>MG Automóveis <em> Lousada</em></h2></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg">
+            <!-- Menu -->
+            <div class="container">
+                <!-- Alinhamento -->
+                <a class="navbar-brand" href="index.html">
+                    <h2>MG Automóveis <em> Lousada</em></h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Início
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Início
                   <span class="sr-only">(current)</span> <!-- Traço em baixo do Inicio -->
                 </a>
-              </li>
-              <li class="nav-item"> <!-- Criar o item Carros no menu -->
-                <a class="nav-link" href="#">Carros</a> 
-              </li>
-              <li class="nav-item dropdown"> <!-- Criar item Sobre nos -->
-                <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Sobre nós</a>
-              
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Sobre Nós</a>
-                    <a class="dropdown-item" href="#">Equipa</a>
-                    <a class="dropdown-item" href="#">Clientes</a>
-                    <a class="dropdown-item" href="#">FAQ</a>
-                    <a class="dropdown-item" href="#">Termos</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- Criar o item Carros no menu -->
+                            <a class="nav-link" href="carros.html">Carros</a>
+                        </li>
+                    </ul>
                 </div>
-              </li>
-              <li class="nav-item"> <!-- Criar item ajudaar -->
-                <a class="nav-link" href="#">Contacte-nos</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+            </div>
+        </nav>
     </header>
 
     <!-- CONTEUDO da Pagina -->
@@ -84,355 +84,364 @@
     <!-- Capa do site -->
     <div class="main-banner header-text" id="top">
         <div class="Modern-Slider">
-          <!-- Primeiro Slide -->
-          <div class="item item-1">
-            <div class="img-fill">
-                <div class="text-content">
-                  <h6>OS CARROS NOVOS CHEGARAM AO MG AUTOMÓVEIS !</h6>
-                  <h4>Carro novo ou <br> semi novo ?</h4>
-                  <p>Aqui pode encontrar uma seleção de viaturas seminovas a um preço competitivo e mais acessível, com poucos kms e prontas para entrega imediata.</p>
-                  <a href="#" class="filled-button">Carros</a>
+            <!-- Primeiro Slide -->
+            <div class="item item-1">
+                <div class="img-fill">
+                    <div class="text-content">
+                        <h6>OS CARROS NOVOS CHEGARAM AO MG AUTOMÓVEIS !</h6>
+                        <h4>Carro novo ou <br> semi novo ?</h4>
+                        <p>Aqui pode encontrar uma seleção de viaturas seminovas a um preço competitivo e mais acessível, com poucos kms e prontas para entrega imediata.</p>
+                        <a href="carros.html" class="filled-button">Carros</a>
+                    </div>
                 </div>
             </div>
-          </div>
-          <!-- // FIM -->
-          <!-- Segundo Slide -->
-          <div class="item item-2">
-            <div class="img-fill">
-                <div class="text-content">
-                  <h6>A MELHOR GARANTIA PARA O SEU CARRO NOVO !</h6>
-                  <h4>PLATINIUM: <br> ATÉ 7 ANOS </h4>
-                  <p>Viaturas com garantia sem limite de quilómetros, com assistência em oficinas recomendadas, próxima da sua residência. Assistência com cobertura nacional e em países da união Europeia.?</p>
-                  <a href="#" class="filled-button">Sobre Nós</a>
+            <!-- // FIM -->
+            <!-- Segundo Slide -->
+            <div class="item item-2">
+                <div class="img-fill">
+                    <div class="text-content">
+                        <h6>A MELHOR GARANTIA PARA O SEU CARRO NOVO !</h6>
+                        <h4>PLATINIUM: <br> ATÉ 7 ANOS </h4>
+                        <p>Viaturas com garantia sem limite de quilómetros, com assistência em oficinas recomendadas, próxima da sua residência. Assistência com cobertura nacional e em países da união Europeia.?</p>
+                        <a href="carros.html" class="filled-button">Sobre Nós</a>
+                    </div>
                 </div>
             </div>
-          </div>
-          <!-- // FIM -->
-          <!-- Terceiro Slide -->
-          <div class="item item-3">
-            <div class="img-fill">
-                <div class="text-content">
-                  <h6>TEMOS UMA EQUIPA/STAFF DE EXCELÊNCIA !</h6>
-                  <h4>Estamos diponíveis 24/7<br> durante 7 dias por semana</h4>
-                  <p>Somos uma empresa dedicada ao comércio de automóveis seminovos e usados, com sede em Lousada.</p>
-                  <a href="#" class="filled-button">Contacte-nos</a>
+            <!-- // FIM -->
+            <!-- Terceiro Slide -->
+            <div class="item item-3">
+                <div class="img-fill">
+                    <div class="text-content">
+                        <h6>TEMOS UMA EQUIPA/STAFF DE EXCELÊNCIA !</h6>
+                        <h4>Estamos diponíveis 24/7<br> durante 7 dias por semana</h4>
+                        <p>Somos uma empresa dedicada ao comércio de automóveis seminovos e usados, com sede em Lousada.</p>
+                        <a href="carros.html" class="filled-button">Contacte-nos</a>
+                    </div>
                 </div>
             </div>
-          </div>
-          <!-- // FIM -->
+            <!-- // FIM -->
         </div>
     </div>
     <!-- Fim da Capa do Site -->
 
     <!-- Inicio de um botao de Suporte -->
     <div class="request-form">
-      <div class="container"> <!-- Alinhamento -->
-        <div class="row"> <!-- Define o nome das linhas e funções -->
-          <div class="col-md-8">
-            <h4>Necessita de nos contactar agora ?</h4>
-            <span>Fale com um membro da Staff com apenas um click.</span>
-          </div>
-          <div class="col-md-4">
-            <a href="#" class="border-button">Contacte-nos</a>
-          </div>
+        <div class="container">
+            <!-- Alinhamento -->
+            <div class="row">
+                <!-- Define o nome das linhas e funções -->
+                <div class="col-md-8">
+                    <h4>Necessita de nos contactar agora ?</h4>
+                    <span>Fale com um membro da Staff com apenas um click.</span>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="border-button">Contacte-nos</a>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
     <!-- // FIM -->
 
-   <!-- Inicio de alguns carros á venda -->
+    <!-- Inicio de alguns carros á venda -->
     <div class="services">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="section-heading">
-              <h2>ÚLTIMAS <em>ENTRADAS</em></h2> <!-- Titulo -->
-              <span>Os carros mais recentes adicionados ao nosso Stand</span> <!--Sub Titulo -->
-            </div>
-          </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <h2>ÚLTIMAS <em>ENTRADAS</em></h2>
+                        <!-- Titulo -->
+                        <span>Os carros mais recentes adicionados ao nosso Stand</span>
+                        <!--Sub Titulo -->
+                    </div>
+                </div>
 
-          <!-- Primeiro Carro-->
-          <div class="col-md-4">
-            <div class="service-item"> <!-- Definiçoes da imagem -->
-              <img src="plugins/images/porshe.jpg" alt="">
-              <div class="down-content">
-                <h4>Porshe Panamera 4</h4>
-                <div style="margin-bottom:10px;">
-                  <span>
+                <!-- Primeiro Carro-->
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <!-- Definiçoes da imagem -->
+                        <img src="plugins/images/porshe.jpg" alt="">
+                        <div class="down-content">
+                            <h4>Porshe Panamera 4</h4>
+                            <div style="margin-bottom:10px;">
+                                <span>
                       <del><sup>€</sup>125 999 </del> &nbsp; <sup>€</sup>115 999
                   </span>
+                            </div>
+
+                            <p>
+                                <i class="fa fa-dashboard"></i> 80 000km &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cube"></i> 462 cv &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cog"></i> E-Hybrid &nbsp;&nbsp;&nbsp;
+                            </p>
+                            <a href="carros.html" class="filled-button">Ver Mais</a>
+                        </div>
+                    </div>
+                    <br>
                 </div>
+                <!-- // FIM Carro -->
 
-                <p>
-                  <i class="fa fa-dashboard"></i> 80 000km &nbsp;&nbsp;&nbsp;
-                  <i class="fa fa-cube"></i> 462 cv &nbsp;&nbsp;&nbsp;
-                  <i class="fa fa-cog"></i> E-Hybrid &nbsp;&nbsp;&nbsp;
-                </p>
-                <a href="#.html" class="filled-button">Ver Mais</a>
-              </div>
-            </div>
-            <br>
-          </div>
-          <!-- // FIM Carro -->
-
-          <!-- Segundo Carro-->
-          <div class="col-md-4">
-            <div class="service-item"> <!-- Definiçoes da imagem -->
-              <img src="plugins/images/mercedesgt.jpg" alt="">
-              <div class="down-content">
-                <h4>Mercedes AMG GT</h4>
-                <div style="margin-bottom:10px;">
-                  <span>
+                <!-- Segundo Carro-->
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <!-- Definiçoes da imagem -->
+                        <img src="plugins/images/mercedesgt.jpg" alt="">
+                        <div class="down-content">
+                            <h4>Mercedes AMG GT</h4>
+                            <div style="margin-bottom:10px;">
+                                <span>
                       <del><sup>€</sup>150 000 </del> &nbsp; <sup>€</sup>125 000
                   </span>
-                </div>
+                            </div>
 
-                <p>
-                  <i class="fa fa-dashboard"></i> 130 000km &nbsp;&nbsp;&nbsp;
-                  <i class="fa fa-cube"></i> 476 cv &nbsp;&nbsp;&nbsp;
-                  <i class="fa fa-cog"></i> Gasolina &nbsp;&nbsp;&nbsp;
-                </p>
-                <a href="#.html" class="filled-button">Ver Mais</a>
-              </div>
-            </div>
-            <br>
-          </div>
-          <!-- // FIM Carro -->
-          
-          <!-- Terceiro Carro-->
-          <div class="col-md-4">
-            <div class="service-item"> <!-- Definiçoes da imagem -->
-              <img src="plugins/images/bmwm8.jpg" alt="">
-              <div class="down-content">
-                <h4>BMW M8 Competition</h4>
-                <div style="margin-bottom:10px;">
-                  <span>
+                            <p>
+                                <i class="fa fa-dashboard"></i> 130 000km &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cube"></i> 476 cv &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cog"></i> Gasolina &nbsp;&nbsp;&nbsp;
+                            </p>
+                            <a href="carros.html" class="filled-button">Ver Mais</a>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <!-- // FIM Carro -->
+
+                <!-- Terceiro Carro-->
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <!-- Definiçoes da imagem -->
+                        <img src="plugins/images/bmwm8.jpg" alt="">
+                        <div class="down-content">
+                            <h4>BMW M8 Competition</h4>
+                            <div style="margin-bottom:10px;">
+                                <span>
                       <del><sup>€</sup>235 000 </del> &nbsp; <sup>€</sup>215 000
                   </span>
+                            </div>
+
+                            <p>
+                                <i class="fa fa-dashboard"></i> NOVO &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cube"></i> 625 cv cc &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cog"></i> Gasolina &nbsp;&nbsp;&nbsp;
+                            </p>
+                            <a href="carros.html" class="filled-button">Ver Mais</a>
+                        </div>
+                    </div>
+                    <br>
                 </div>
-
-                <p>
-                  <i class="fa fa-dashboard"></i> NOVO &nbsp;&nbsp;&nbsp;
-                  <i class="fa fa-cube"></i> 625 cv cc &nbsp;&nbsp;&nbsp;
-                  <i class="fa fa-cog"></i> Gasolina &nbsp;&nbsp;&nbsp;
-                </p>
-                <a href="#.html" class="filled-button">Ver Mais</a>
-              </div>
+                <!-- // FIM Carro -->
             </div>
-            <br>
-          </div>
-          <!-- // FIM Carro -->
-
-
         </div>
-      </div>
     </div>
-   <!-- // FIm dos carros-->
+    <!-- // FIm dos carros-->
 
-  <!-- Inicio de uma faixa de informação -->
-    <div class="fun-facts"> <!-- Inserir um foto de background -->
-      <div class="container">
-        <div class="more-info-content"> 
-          <div class="row">
-            <div class="col-md-6">
-              <div class="left-image">
-                <img src="plugins/images/empresa.jpg" class="img-fluid" alt="">
-              </div>
+    <!-- Inicio de uma faixa de informação -->
+    <div class="fun-facts">
+        <!-- Inserir um foto de background -->
+        <div class="container">
+            <div class="more-info-content">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="left-image">
+                            <img src="plugins/images/empresa.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 align-self-center">
+                        <div class="right-content">
+                            <span>Quem nós somos</span>
+                            <h2>Conheça nossa empresa</em>
+                            </h2>
+                            <p>Somos uma empresa dedicada ao comércio de automóveis seminovos e usados, com sede em Lousada</p>
+                            <a href="carros.html" class="filled-button">Ler Mais</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-6 align-self-center">
-              <div class="right-content">
-                <span>Quem nós somos</span>
-                <h2>Conheça nossa empresa</em></h2>
-                <p>Somos uma empresa dedicada ao comércio de automóveis seminovos e usados, com sede em Lousada</p>
-                <a href="#" class="filled-button">ler Mais</a>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
     </div>
     <!-- //FIM -->
 
     <!-- Incio testemunhas -->
     <div class="testemunhas">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="section-heading">
-              <h2>O que dizem <em>sobre nós</em></h2>
-              <span>TESTEMUNHOS DOS NOSSOS MAIORES CLIENTES</span>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <h2>O que dizem <em>sobre nós</em></h2>
+                        <span>TESTEMUNHOS DOS NOSSOS MAIORES CLIENTES</span>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="owl-testemunhas owl-carousel">
+                        <!-- Primeiro Testemunha -->
+                        <div class="testemunha-item">
+                            <div class="inner-content">
+                                <h4>Jorge Pacheco</h4>
+                                <span>Lutador de Boxe</span>
+                                <p>"Super recomendado, atendimento 5* e com óptimos veículos.Um obrigado especial ao Gabriel pela simpatia e paciência uma pessoa formidável! Obrigado pela venda que me fizeram"</p>
+                            </div>
+                            <img src="plugins/images/jorgepacheco.jpg" alt="">
+                        </div>
+                        <!-- Segundo Testemunha -->
+                        <div class="testemunha-item">
+                            <div class="inner-content">
+                                <h4>Paulo Silva</h4>
+                                <span>Personal Trainer</span>
+                                <p>"Agradeço à equipa do MG Automóveis, na pessoa do vendedor Bruno, toda a simpatia, cordialidade, esclarecimentos, transparência e honestidade na aquisição da minha viatura. Se para o comprador a qualidade do produto/bem
+                                    adquirido é importante, não menos o é a assistência ímpar disponibilizada pelo MG Automóveis. Obrigada! Obrigada! Obrigada!"</p>
+                            </div>
+                            <img src="plugins/images/paulosilva.jpg" alt="">
+                        </div>
+                        <!-- Terceiro Testemunha -->
+                        <div class="testemunha-item">
+                            <div class="inner-content">
+                                <h4>Rafael Peixoto</h4>
+                                <span>Profisão desconhecida</span>
+                                <p>"Depois de meia duzia de carros comprados no MG Automóveis e outros tantos noutros stands. Ainda não encontrei atendimento como este . Sempre TOP e IMPECÁVEL."</p>
+                            </div>
+                            <img src="plugins/images/rafael.jpg" alt="">
+                        </div>
+                        <!-- Quarto Testemunha -->
+                        <div class="testemunha-item">
+                            <div class="inner-content">
+                                <h4>Nelson Bessa</h4>
+                                <span>Arquiteto de obras feitas</span>
+                                <p>"Estamos na presença de 1 stand que revela qualidade, diversidade e simpatia."</p>
+                            </div>
+                            <img src="plugins/images/nelson.jpg" alt="">
+                        </div>
+
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-md-12">
-            <div class="owl-testemunhas owl-carousel">
-              <!-- Primeiro Testemunha -->
-              <div class="testemunha-item">
-                <div class="inner-content">
-                  <h4>Jorge Pacheco</h4>
-                  <span>Lutador de Boxe</span>
-                  <p>"Super recomendado, atendimento 5* e com óptimos veículos.Um obrigado especial ao Gabriel pela simpatia e paciência uma pessoa formidável! Obrigado pela venda que me fizeram"</p>
-                </div>
-                <img src="plugins/images/jorgepacheco.jpg" alt="">
-              </div>
-              <!-- Segundo Testemunha -->
-              <div class="testemunha-item">
-                <div class="inner-content">
-                  <h4>Paulo Silva</h4>
-                  <span>Personal Trainer</span>
-                  <p>"Agradeço à equipa do MG Automóveis, na pessoa do vendedor Bruno, toda a simpatia, cordialidade, esclarecimentos, transparência e honestidade na aquisição da minha viatura. Se para o comprador a qualidade do produto/bem adquirido é importante, não menos o é a assistência ímpar disponibilizada pelo MG Automóveis. Obrigada! Obrigada! Obrigada!"</p>
-                </div>
-                <img src="plugins/images/paulosilva.jpg" alt="">
-              </div>
-              <!-- Terceiro Testemunha -->
-              <div class="testemunha-item">
-                <div class="inner-content">
-                  <h4>Rafael Peixoto</h4>
-                  <span>Profisão desconhecida</span>
-                  <p>"Depois de meia duzia de carros comprados no MG Automóveis e outros tantos noutros stands. Ainda não encontrei atendimento como este . Sempre TOP e IMPECÁVEL."</p>
-                </div>
-                <img src="plugins/images/rafael.jpg" alt="">
-              </div>
-              <!-- Quarto Testemunha -->
-              <div class="testemunha-item">
-                <div class="inner-content">
-                  <h4>Nelson Bessa</h4>
-                  <span>Arquiteto de obras feitas</span>
-                  <p>"Estamos na presença de 1 stand que revela qualidade, diversidade e simpatia."</p>
-                </div>
-                <img src="plugins/images/nelson.jpg" alt="">
-              </div>
-              
-            </div>
-          </div>
         </div>
-      </div>
     </div>
     <!-- FIM dos Testemunhas-->
 
     <!-- Inico de Suporte -->
     <div class="suporte-form">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="section-heading">
-              <h2>Necessita de <em>ajuda </em> ?</h2>
-              <span>Solicite aqui a ajuda que pretende que a nossa equipa resolva.</span>
-            </div>
-          </div>
-          <div class="col-md-12">
-            <div class="ajuda-form"> <!-- Clase ja com a tabela criada -->
-              <form id="ajuda" action="" method="post"> <!-- Utilizar o Pluginde formulario -->
-                <div class="row">
-                  <div class="col-lg-4 col-md-12 col-sm-12">
-                    <fieldset>
-                      <input name="name" type="text" class="form-control" id="name" placeholder="Nome*" required="">
-                    </fieldset>
-                  </div>
-                  <div class="col-lg-4 col-md-12 col-sm-12">
-                    <fieldset>
-                      <input name="email" type="text" class="form-control" id="email" pattern="[^ @]*@[^ @]*" placeholder="E-Mail*" required="">
-                    </fieldset>
-                  </div>
-                  <div class="col-lg-4 col-md-12 col-sm-12">
-                    <fieldset>
-                      <input name="subject" type="text" class="form-control" id="subject" placeholder="Sobrenome*" required="">
-                    </fieldset>
-                  </div>
-                  <div class="col-lg-12">
-                    <fieldset>
-                      <textarea name="message" rows="6" class="form-control" id="message" placeholder="A sua mensagem*" required=""></textarea>
-                    </fieldset>
-                  </div>
-                  <div class="col-lg-12">
-                    <fieldset>
-                      <button type="submit" id="form-submit" class="border-button">Enviar</button>
-                    </fieldset>
-                  </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <h2>Necessita de <em>ajuda </em> ?</h2>
+                        <span>Solicite aqui a ajuda que pretende que a nossa equipa resolva.</span>
+                    </div>
                 </div>
-              </form>
+                <div class="col-md-12">
+                    <div class="ajuda-form">
+                        <!-- Clase ja com a tabela criada -->
+                        <form id="ajuda" action="" method="post">
+                            <!-- Utilizar o Pluginde formulario -->
+                            <div class="row">
+                                <div class="col-lg-4 col-md-12 col-sm-12">
+                                    <fieldset>
+                                        <input name="name" type="text" class="form-control" id="name" placeholder="Nome*" required="">
+                                    </fieldset>
+                                </div>
+                                <div class="col-lg-4 col-md-12 col-sm-12">
+                                    <fieldset>
+                                        <input name="email" type="text" class="form-control" id="email" pattern="[^ @]*@[^ @]*" placeholder="E-Mail*" required="">
+                                    </fieldset>
+                                </div>
+                                <div class="col-lg-4 col-md-12 col-sm-12">
+                                    <fieldset>
+                                        <input name="subject" type="text" class="form-control" id="subject" placeholder="Sobrenome*" required="">
+                                    </fieldset>
+                                </div>
+                                <div class="col-lg-12">
+                                    <fieldset>
+                                        <textarea name="message" rows="6" class="form-control" id="message" placeholder="A sua mensagem*" required=""></textarea>
+                                    </fieldset>
+                                </div>
+                                <div class="col-lg-12">
+                                    <fieldset>
+                                        <button type="submit" id="form-submit" class="border-button">Enviar</button>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
 
-        <br>
-        <br>
-        <br>
-        <br>
-      </div>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
     </div>
     <!-- Fim de Suporte -->
 
     <!-- Rodapé -->
     <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 footer-item">
-            <h4>MG Automóveis Stand</h4>
-            <p>Para os nossos clientes o MG Automóveis dispõem de um conjunto de serviços inovadores e completos, na compra, financiamento, manutenção e garantia da sua nova viatura.</p>
-            <ul class="social-icons">
-              <li><a rel="nofollow" href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-            </ul>
-          </div>
-          <div class="col-md-3 footer-item">
-            <h4>GARANTIA</h4>
-            <p>Viaturas com garantia sem limite de quilómetros, com assistência em oficinas recomendadas, próxima da sua residência. Assistência com cobertura nacional e em países da união Europeia.</p>
-          </div>
-          <div class="col-md-3 footer-item">
-            <h4>Páginas Adicionais</h4>
-            <ul class="menu-list">
-              <li><a href="#">Sobre Nós</a></li>
-              <li><a href="#">Equipa</a></li>
-              <li><a href="#">Clientes</a></li>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Termos</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3 footer-item last-item">
-            <h4>Contacte-nos</h4>
-            <div class="ajuda-form">
-              <form id="ajuda footer-ajuda" action="" method="post">
-                <div class="row">
-                  <div class="col-lg-12 col-md-12 col-sm-12">
-                    <fieldset>
-                      <input name="name" type="text" class="form-control" id="name" placeholder="Nome Completo" required="">
-                    </fieldset>
-                  </div>
-                  <div class="col-lg-12 col-md-12 col-sm-12">
-                    <fieldset>
-                      <input name="email" type="text" class="form-control" id="email" pattern="[^ @]*@[^ @]*" placeholder="E-Mail" required="">
-                    </fieldset>
-                  </div>
-                  <div class="col-lg-12">
-                    <fieldset>
-                      <textarea name="message" rows="6" class="form-control" id="message" placeholder="Sua Mensagem" required=""></textarea>
-                    </fieldset>
-                  </div>
-                  <div class="col-lg-12">
-                    <fieldset>
-                      <button type="submit" id="form-submit" class="filled-button">Enviar</button>
-                    </fieldset>
-                  </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 footer-item">
+                    <h4>MG Automóveis Stand</h4>
+                    <p>Para os nossos clientes o MG Automóveis dispõem de um conjunto de serviços inovadores e completos, na compra, financiamento, manutenção e garantia da sua nova viatura.</p>
+                    <ul class="social-icons">
+                        <li><a rel="nofollow" href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
                 </div>
-              </form>
+                <div class="col-md-3 footer-item">
+                    <h4>GARANTIA</h4>
+                    <p>Viaturas com garantia sem limite de quilómetros, com assistência em oficinas recomendadas, próxima da sua residência. Assistência com cobertura nacional e em países da união Europeia.</p>
+                </div>
+                <div class="col-md-3 footer-item">
+                    <h4>Páginas Adicionais</h4>
+                    <ul class="menu-list">
+                        <li><a href="#">Sobre Nós</a></li>
+                        <li><a href="#">Equipa</a></li>
+                        <li><a href="#">Clientes</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Termos</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footer-item last-item">
+                    <h4>Contacte-nos</h4>
+                    <div class="ajuda-form">
+                        <form id="ajuda footer-ajuda" action="" method="post">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <fieldset>
+                                        <input name="name" type="text" class="form-control" id="name" placeholder="Nome Completo" required="">
+                                    </fieldset>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <fieldset>
+                                        <input name="email" type="text" class="form-control" id="email" pattern="[^ @]*@[^ @]*" placeholder="E-Mail" required="">
+                                    </fieldset>
+                                </div>
+                                <div class="col-lg-12">
+                                    <fieldset>
+                                        <textarea name="message" rows="6" class="form-control" id="message" placeholder="Sua Mensagem" required=""></textarea>
+                                    </fieldset>
+                                </div>
+                                <div class="col-lg-12">
+                                    <fieldset>
+                                        <button type="submit" id="form-submit" class="filled-button">Enviar</button>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </footer>
-    
+
     <div class="sub-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <p>
-                Copyright © 2022 MG Automóveis Stand Lousada
-                - Site Criado por : <a href="https://www.instagram.com/gabrielbessa2004/">Gabriel </a>&<a href="https://www.instagram.com/magalhaes4509/"> Bruno</a>
-            </p>
-          </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        Copyright © 2022 MG Automóveis Stand Lousada - Site Criado por : <a href="https://www.instagram.com/gabrielbessa2004/">Gabriel </a>&<a href="https://www.instagram.com/magalhaes4509/"> Bruno</a>
+                    </p>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
 
     <!-- Bootstrap JavaScript -->
@@ -445,15 +454,17 @@
     <script src="plugins/js/slick.js"></script>
     <script src="plugins/js/accordions.js"></script>
 
-    <script language = "text/Javascript"> 
-      cleared[0] = cleared[1] = cleared[2] = 0; 
-      function clearField(t){                   
-      if(! cleared[t.id]){                      // função torna estático e global
-          cleared[t.id] = 1;  
-          t.value='';         // com mais chance de erros de digitação
-          t.style.color='#fff';
-          }
-      }
+    <script language="text/Javascript">
+        cleared[0] = cleared[1] = cleared[2] = 0;
+
+        function clearField(t) {
+            if (!cleared[t.id]) { // função torna estático e global
+                cleared[t.id] = 1;
+                t.value = ''; // com mais chance de erros de digitação
+                t.style.color = '#fff';
+            }
+        }
     </script>
-  </body>
+</body>
+
 </html>
