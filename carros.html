@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- Pode representar qualquer caracter -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Dá dicas sobre o tamanho inicial do site, device-width para largura e initial-scale = define a relação entre a largura e o tamanho da janela de visualização -->
+    <meta name="description" content="Site no ambito da disciplina de AC">
+    <!-- Descriçao -->
+    <meta name="author" content="Gabriel e Bruno">
+    <!-- Autores-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,30 0,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <title>MG Automóveis - Carros Usados, Carros Baratos, Stand Lousada</title>
+    <!-- Titulo -->
+
+    <!-- Bootstrap c CSS -->
+    <link href="bibliotecas/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Ficheiros CSS -->
+    <link rel="stylesheet" href="plugins/css/fontawesome.css">
+    <link rel="stylesheet" href="plugins/css/style.css">
+    <link rel="stylesheet" href="plugins/css/owl.css">
+</head>
+
+<body>
+
+    <!-- ***** Preloader Inicio ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- ***** Preloader Fim ***** -->
+
+    <!-- Header -->
+    <div class="sub-header">
+        <div class="container">
+            <!-- Alinhamento -->
+            <div class="row">
+                <!-- Define o nome das linhas e funções -->
+                <div class="col-md-8 col-xs-12">
+                    <!-- Criar o layout do sub header -->
+                    <ul class="left-info">
+                        <li><a href="#"><i class="fa fa-envelope"></i>mgautomoveis@stand.pt</a></li>
+                        <li><a href="#"><i class="fa fa-phone"></i>+351 936228537</a></li>
+                        <li><a href="#"><i class="fa fa-map-marker"></i>Escola Sec. de Lousada</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="right-icons">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Menu do site-->
+    <header class="">
+        <nav class="navbar navbar-expand-lg">
+            <!-- Menu -->
+            <div class="container">
+                <!-- Alinhamento -->
+                <a class="navbar-brand" href="index.html">
+                    <h2>MG Automóveis <em> Lousada</em></h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Início</a>
+                        </li>
+                        <li class="nav-item active">
+                            <!-- Criar o item Carros no menu -->
+                            <a class="nav-link" href="#carros">Carros</a>
+                            <!-- Traço em baixo  -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- Conteudo da pagina -->
+    <div class="page-heading header-text">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Carros</h1>
+                    <span>Os Carros novos chegaram ao MGAutomoveis. Marque agora o seu test-drive.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="services">
+        <div class="container">
+            <form action="#" id="contact">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label>Usados/Novos:</label>
+
+                            <select class="form-control">
+                            <option value="">-- Todos --</option>
+                            <option value="new">Veiculos Novos</option>
+                            <option value="used">Veiculos Usados</option>
+                       </select>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label>Tipos de Veiculos:</label>
+
+                            <select class="form-control">
+                            <option value="">-- Todos --</option>
+                            <option value="">Carros</option>
+                            <option value="">Motas</option>
+                            <option value="">Comerciais</option>
+                            <option value="">Pesados</option>
+                       </select>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label>Marca:</label>
+                            <select class="form-control">
+                            <option value="">-- Todos --</option>
+                            <option value="">BMW</option>
+                            <option value="">MERCEDES-</option>
+                            <option value="">PORSHE</option>
+                            <option value="">AUDI</option>
+                            <option value="">OPEL</option>
+                            <option value="">CITROEN</option>
+                       </select>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label>Preço:</label>
+
+                            <select class="form-control">
+                                <option value="">-- Todos --</option>
+                            <option value="">Abaixo 10.000€</option>
+                            <option value="">10.00€ - 25.00€</option>
+                            <option value="">25.00€ - 50.00€</option>
+                            <option value="">Acima 50.00€</option>
+                       </select>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label>Ano</label>
+
+                            <select class="form-control">
+                            <option value="">-- Todos --</option>
+                            <option value="">2015</option>
+                            <option value="">2016</option>
+                            <option value="">2017</option>
+                            <option value="">2018</option>
+                            <option value="">2019</option>
+                            <option value="">2020</option>
+                            <option value="">2021</option>
+                            <option value="">2022</option>
+                       </select>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label>Combustível:</label>
+
+                            <select class="form-control">
+                            <option value="">-- Todos --</option>
+                            <option value="">Gasolina</option>
+                            <option value="">Gasoleo</option>
+                            <option value="">Eletrico</option>
+                       </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label>Transmissão:</label>
+
+                            <select class="form-control">
+                            <option value="">-- Todos --</option>
+                            <option value="">Manual</option>
+                            <option value="">Automática</option>
+                       </select>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 offset-sm-4">
+                        <div class="main-button text-center">
+                            <br> <a href="#" class="filled-button">Procurar</a>
+                        </div>
+                    </div>
+                    <br>
+                    <br><br><br>
+            </form>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <img src="plugins/images/product-1-720x480.jpg" alt="">
+                        <div class="down-content">
+                            <h4>DACIA SANDERO STEPWAY</h4>
+                            <div style="margin-bottom:10px;">
+                                <span>
+                      <del><sup>€</sup>18999 </del> &nbsp; <sup>€</sup>13779
+                  </span>
+                            </div>
+
+                            <p>
+                                <i class="fa fa-dashboard"></i> 130 000km &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cube"></i> 1800 cc &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cog"></i> Manual &nbsp;&nbsp;&nbsp;
+                            </p>
+                            <a href="#" class="filled-button">Ver Mais</a>
+                        </div>
+                    </div>
+
+                    <br>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <img src="plugins/images/product-2-720x480.jpg" alt="">
+                        <div class="down-content">
+                            <h4>BMW Z8</h4>
+                            <div style="margin-bottom:10px;">
+                                <span>
+                      <del><sup>€</sup>11999 </del> &nbsp; <sup>€</sup>9779
+                  </span>
+                            </div>
+
+                            <p>
+                                <i class="fa fa-dashboard"></i> 130 000km &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cube"></i> 1800 cc &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cog"></i> Manual &nbsp;&nbsp;&nbsp;
+                            </p>
+                            <a href="#" class="filled-button">Ver Mais</a>
+                        </div>
+                    </div>
+
+                    <br>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <img src="plugins/images/product-3-720x480.jpg" alt="">
+                        <div class="down-content">
+                            <h4>MAZDA CX3 2016</h4>
+                            <div style="margin-bottom:10px;">
+                                <span>
+                      <del><sup>€</sup>17999 </del> &nbsp; <sup>€</sup>11779
+                  </span>
+                            </div>
+
+                            <p>
+                                <i class="fa fa-dashboard"></i> 130 000km &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cube"></i> 1800 cc &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cog"></i> Manual &nbsp;&nbsp;&nbsp;
+                            </p>
+                            <a href="#" class="filled-button">Ver Mais</a>
+                        </div>
+                    </div>
+
+                    <br>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <img src="plugins/images/product-4-720x480.jpg" alt="">
+                        <div class="down-content">
+                            <h4>KIA SPORTAGE</h4>
+                            <div style="margin-bottom:10px;">
+                                <span>
+                      <del><sup>€</sup>13999 </del> &nbsp; <sup>€</sup>11779
+                  </span>
+                            </div>
+
+                            <p>
+                                <i class="fa fa-dashboard"></i> 130 000km &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cube"></i> 1800 cc &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cog"></i> Manual &nbsp;&nbsp;&nbsp;
+                            </p>
+                            <a href="#" class="filled-button">Ver Mais</a>
+                        </div>
+                    </div>
+
+                    <br>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <img src="plugins/images/product-5-720x480.jpg" alt="">
+                        <div class="down-content">
+                            <h4>BMW M2 2015</h4>
+                            <div style="margin-bottom:10px;">
+                                <span>
+                      <del><sup>€</sup>145999 </del> &nbsp; <sup>€</sup>110779
+                  </span>
+                            </div>
+
+                            <p>
+                                <i class="fa fa-dashboard"></i> 130 000km &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cube"></i> 1800 cc &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cog"></i> Manual &nbsp;&nbsp;&nbsp;
+                            </p>
+                            <a href="#" class="filled-button">Ver Mais</a>
+                        </div>
+                    </div>
+
+                    <br>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <img src="plugins/images/product-6-720x480.jpg" alt="">
+                        <div class="down-content">
+                            <h4>BM2 M3 COUPE</h4>
+                            <div style="margin-bottom:10px;">
+                                <span>
+                      <del><sup>€</sup>110999 </del> &nbsp; <sup>€</sup>105000
+                  </span>
+                            </div>
+
+                            <p>
+                                <i class="fa fa-dashboard"></i> 130 000km &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cube"></i> 1800 cc &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cog"></i> Manual &nbsp;&nbsp;&nbsp;
+                            </p>
+                            <a href="#" class="filled-button">Ver Mais</a>
+                        </div>
+                    </div>
+
+                    <br>
+                </div>
+            </div>
+
+            <br>
+            <br>
+
+            <nav>
+                <ul class="pagination pagination-lg justify-content-center">
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Anterior">
+                            <span aria-hidden="true">«</span>
+                            <span class="sr-only">Anterior</span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">»</span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            </div>
+        </div>
+
+
+        <!-- Rodapé -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 footer-item">
+                        <h4>MG Automóveis Stand</h4>
+                        <p>Para os nossos clientes o MG Automóveis dispõem de um conjunto de serviços inovadores e completos, na compra, financiamento, manutenção e garantia da sua nova viatura.</p>
+                        <ul class="social-icons">
+                            <li><a rel="nofollow" href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 footer-item">
+                        <h4>GARANTIA</h4>
+                        <p>Viaturas com garantia sem limite de quilómetros, com assistência em oficinas recomendadas, próxima da sua residência. Assistência com cobertura nacional e em países da união Europeia.</p>
+                    </div>
+                    <div class="col-md-3 footer-item">
+                        <h4>Páginas Adicionais</h4>
+                        <ul class="menu-list">
+                            <li><a href="#">Sobre Nós</a></li>
+                            <li><a href="#">Equipa</a></li>
+                            <li><a href="#">Clientes</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Termos</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 footer-item last-item">
+                        <h4>Contacte-nos</h4>
+                        <div class="ajuda-form">
+                            <form id="ajuda footer-ajuda" action="" method="post">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12">
+                                        <fieldset>
+                                            <input name="name" type="text" class="form-control" id="name" placeholder="Nome Completo" required="">
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12">
+                                        <fieldset>
+                                            <input name="email" type="text" class="form-control" id="email" pattern="[^ @]*@[^ @]*" placeholder="E-Mail" required="">
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <fieldset>
+                                            <textarea name="message" rows="6" class="form-control" id="message" placeholder="Sua Mensagem" required=""></textarea>
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <fieldset>
+                                            <button type="submit" id="form-submit" class="filled-button">Enviar</button>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div class="sub-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>
+                            Copyright © 2022 MG Automóveis Stand Lousada - Site Criado por : <a href="https://www.instagram.com/gabrielbessa2004/">Gabriel </a>&<a href="https://www.instagram.com/magalhaes4509/"> Bruno</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="bibliotecas/jquery/jquery.min.js"></script>
+        <script src="bibliotecas/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Additional Scripts -->
+        <script src="plugins/js/custom.js"></script>
+        <script src="plugins/js/owl.js"></script>
+        <script src="plugins/js/slick.js"></script>
+        <script src="plugins/js/accordions.js"></script>
+
+        <script language="text/Javascript">
+            cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+            function clearField(t) { //declaring the array outside of the
+                if (!cleared[t.id]) { // function makes it static and global
+                    cleared[t.id] = 1; // you could use true and false, but that's more typing
+                    t.value = ''; // with more chance of typos
+                    t.style.color = '#fff';
+                }
+            }
+        </script>
+
+</body>
+
+</html>
